@@ -5,3 +5,4 @@ git pull --recurse-submodules
 npm install
 git add .
 git commit -m "ci: update submodules"
+git push
