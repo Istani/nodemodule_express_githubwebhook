@@ -1,5 +1,5 @@
-cd ..
-cd ..
+#cd ..
+#cd ..
 pwd
 git pull --recurse-submodules
 git submodule update --init
@@ -8,4 +8,3 @@ npm install
 git add .
 git commit -m "ci: update submodules"
 git push
-pm2 restart all
