@@ -8,3 +8,4 @@ npm install
 git add .
 git commit -m "ci: update submodules"
 git push
+pm2 restart all

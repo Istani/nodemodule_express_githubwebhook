@@ -6,10 +6,11 @@ const router = express.Router();
 
 // Vielleicht kommen hier spater noch mehr urls, aber erstmal reicht eine!
 router.use(async (req, res, next) => {
+  res.send("OK");
   var cmd = "sh " + __dirname + "/update.sh";
   debug.log("CMD: " + cmd);
   require('child_process').execSync(cmd);
-  res.send("OK");
+  
 });
 
 module.exports = router;
