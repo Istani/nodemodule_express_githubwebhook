@@ -1,5 +1,5 @@
-cd ..
-cd ..
+#cd ..
+#cd ..
 pwd
 git pull --recurse-submodules
 git submodule update --init
